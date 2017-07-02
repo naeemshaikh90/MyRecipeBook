@@ -1,0 +1,15 @@
+{
+  "id": 2573,
+  "name": "Fresh Peach Cobbler I",
+  "description": "Best dessert in planet earth!",
+  "instructions": "Peaches!!",
+  "favorite": true,
+  "difficulty": 1,
+  "created_at": "2016-12-08T11:59:14.237Z",
+  "updated_at": "2016-12-08T11:59:14.237Z",
+  "photo": {
+    "url": "https://hyper-recipes.s3.amazonaws.com/uploads/recipe/photo/2573/PeachCobbler.jpg",
+    "thumbnail_url": "https://hyper-recipes.s3.amazonaws.com/uploads/recipe/photo/2573/thumbnail_PeachCobbler.jpg"
+  },
+  "user_id": 155
+}

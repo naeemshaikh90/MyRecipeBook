@@ -1,0 +1,84 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Kingfisher (3.9.1)
+  - Moya (8.0.4):
+    - Moya/Core (= 8.0.4)
+  - Moya-ObjectMapper/Core (2.3.2):
+    - Moya (~> 8.0)
+    - ObjectMapper (~> 2.2)
+  - Moya-ObjectMapper/RxSwift (2.3.2):
+    - Moya-ObjectMapper/Core
+    - Moya/RxSwift
+    - RxSwift (~> 3.1)
+  - Moya/Core (8.0.4):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.4):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - Nimble (7.0.0)
+  - ObjectMapper (2.2.6)
+  - Quick (1.1.0)
+  - Reachability (3.1.1)
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - Result (3.2.2)
+  - Reusable (4.0.0):
+    - Reusable/Storyboard (= 4.0.0)
+    - Reusable/View (= 4.0.0)
+  - Reusable/Storyboard (4.0.0)
+  - Reusable/View (4.0.0)
+  - RxSwift (3.4.1)
+  - SVProgressHUD (2.1.2)
+  - SwifterSwift (1.6.4)
+
+DEPENDENCIES:
+  - Kingfisher (~> 3.0)
+  - Moya-ObjectMapper/RxSwift (from `https://github.com/ivanbruel/Moya-ObjectMapper`)
+  - Nimble
+  - ObjectMapper
+  - Quick
+  - Reachability (from `https://github.com/ashfurrow/Reachability.git`, branch `frameworks`)
+  - RealmSwift
+  - Reusable
+  - SVProgressHUD
+  - SwifterSwift
+
+EXTERNAL SOURCES:
+  Moya-ObjectMapper:
+    :git: https://github.com/ivanbruel/Moya-ObjectMapper
+  Reachability:
+    :branch: frameworks
+    :git: https://github.com/ashfurrow/Reachability.git
+
+CHECKOUT OPTIONS:
+  Moya-ObjectMapper:
+    :commit: 0d1a03648c8d512b23cd6969e453377d566ffcb2
+    :git: https://github.com/ivanbruel/Moya-ObjectMapper
+  Reachability:
+    :commit: 6db8c29565c319f59174dd63e4b1ac5b471d133a
+    :git: https://github.com/ashfurrow/Reachability.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
+  Moya: a08bc060c7a44eee27447b239ed33a189b641e2b
+  Moya-ObjectMapper: 46bd1bd986886858c4461b06b6ae1ea368869dc3
+  Nimble: 874982b605d4d752fcac6be695d13c502de84b1b
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  Reachability: 5b69def55ffa04d6f9425a6da1f47338b60557b2
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  Result: 4edd39003fdccf281d418ee1b006571f70123250
+  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwifterSwift: 92c73c47c3cbf7d5f788adf6459bf07b5d23d3fb
+
+PODFILE CHECKSUM: 8f0ac11ac74c2c8e88208169c358e5fb67f5cba3
+
+COCOAPODS: 1.1.1
